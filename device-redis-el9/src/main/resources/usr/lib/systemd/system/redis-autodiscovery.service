@@ -1,0 +1,16 @@
+# systemd service for managing all redis autoconfiguration.
+
+[Unit]
+Description=Redis Configuration Autodiscovery
+Before=redis.service
+BindsTo=redis.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/libexec/device-redis-autodiscovery
+ExecReload=/bin/bash /usr/libexec/device-redis-autodiscovery
+RemainAfterExit=on
+
+[Install]
+WantedBy=multi-user.target
+

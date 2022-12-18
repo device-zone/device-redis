@@ -1,0 +1,7 @@
+if [ $1 = 0 ]; then
+  /usr/bin/systemctl stop redis-autodiscovery.service
+  /usr/bin/systemctl stop redis.service
+  /usr/bin/systemctl disable redis-autodiscovery.service
+  /usr/bin/systemctl disable redis.service
+fi
+
