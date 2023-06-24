@@ -124,7 +124,7 @@
               <groupname>root</groupname>
             </mapping> 
             <mapping>
-              <directory>/usr/libexec/device-autodiscovery.d/redis.d</directory>
+              <directory>/usr/libexec/device-autodiscovery/redis.d</directory>
               <directoryIncluded>false</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
