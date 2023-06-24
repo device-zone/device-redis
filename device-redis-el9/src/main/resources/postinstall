@@ -1,7 +1,7 @@
-#if [ $1 = 1 ]; then
+if [ $1 = 1 ]; then
 
   # Register the service
-#  /usr/bin/systemctl enable redis.service
-#  /usr/bin/systemctl enable redis-autodiscovery.service
-#fi
+  /usr/bin/systemctl enable redis.service
+  /usr/bin/systemctl enable redis-autodiscovery.service
+fi
 
