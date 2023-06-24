@@ -104,7 +104,7 @@
               </sources>
             </mapping>
             <mapping>
-              <directory>/usr/libexec</directory>
+              <directory>/usr/libexec/device-autodiscovery</directory>
               <directoryIncluded>false</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
@@ -112,19 +112,19 @@
               <sources>
                 <source>
                   <location>target/classes/usr/libexec/device-redis-autodiscovery</location>
-                  <destination>device-redis-autodiscovery</destination>
+                  <destination>redis</destination>
                 </source>
               </sources>
             </mapping>
             <mapping>
-              <directory>/usr/libexec/device-redis-autodiscovery.d</directory>
+              <directory>/usr/libexec/device-autodiscovery/redis.d</directory>
               <directoryIncluded>true</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
               <groupname>root</groupname>
             </mapping> 
             <mapping>
-              <directory>/usr/libexec/device-redis-autodiscovery.d</directory>
+              <directory>/usr/libexec/device-autodiscovery.d/redis.d</directory>
               <directoryIncluded>false</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
